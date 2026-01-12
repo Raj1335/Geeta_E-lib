@@ -140,7 +140,6 @@ a {
 
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(8px);
-    color: #ffffff;
     border: 1px solid rgba(255,255,255,0.4);
 
     font-size: 16px;
@@ -156,33 +155,4 @@ a {
 a:hover {
     background: rgba(255,255,255,0.35);
     transform: translateY(-3px);
-}
-
-
-
-
-
-
-.paper-link {
-    background: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.paper-link a {
-    color: #0066cc;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.paper-link a:hover {
-    text-decoration: underline;
-}
-
-.paper-link small {
-    color: #666;
-    font-size: 12px;
 }
